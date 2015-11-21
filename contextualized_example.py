@@ -1,3 +1,4 @@
+from __future__ import print_function
 from contextualized import contextualized_tracebacks
 
 def main():
