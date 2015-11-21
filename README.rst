@@ -100,8 +100,8 @@ This will be the new output:
 Links
 -----
 
- * `Project home page <https://github.com/ntrrgc/contextualized>`_ (GitHub)
- * `Contextualized in PyPI <https://pypi.python.org/pypi/contextualized>`_
+* `Project home page <https://github.com/ntrrgc/contextualized>`_ (GitHub)
+* `Contextualized in PyPI <https://pypi.python.org/pypi/contextualized>`_
 
 Changelog
 ---------
