@@ -103,6 +103,12 @@ Links
  * `Project home page <https://github.com/ntrrgc/contextualized>`_ (GitHub)
  * `Contextualized in PyPI <https://pypi.python.org/pypi/contextualized>`_
 
+Changelog
+---------
+
+* **1.0**: Initial release.
+* **1.1**: SystemExit exceptions no longer are catched, thus triggering normal ``exit()`` by the interpreter.
+
 License
 -------
 

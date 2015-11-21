@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'contextualized',
     py_modules = ['contextualized'],
-    version = '1.0',
+    version = '1.1',
     description = 'Get tracebacks with context.',
     long_description=open('README.rst').read(),
     author='Juan Luis Boya García',

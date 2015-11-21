@@ -3,7 +3,7 @@ from contextlib import contextmanager
 import sys
 import traceback
 
-__version__ = '1.0'
+__version__ = '1.1'
 
 class DebugContext(object):
     def __init__(self, fields):
@@ -55,6 +55,9 @@ def contextualized_tracebacks(fields, print_tb=print_tb):
     context = DebugContext(fields)
     try:
         yield context
+    except SystemExit as ex:
+        # Don't catch SystemExit
+        raise ex
     except:
         _type, _value, _traceback = sys.exc_info()
         # remove the outermost call, that corresponds to "yield context" inside
