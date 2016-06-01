@@ -3,9 +3,9 @@ from distutils.core import setup
 setup(
     name = 'contextualized',
     py_modules = ['contextualized'],
-    version = '1.1',
+    version = '1.2',
     description = 'Get tracebacks with context.',
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst', 'rb').read().decode('UTF-8'),
     author='Juan Luis Boya García',
     author_email='ntrrgc@gmail.com',
     url = 'https://github.com/ntrrgc/contextualized',
