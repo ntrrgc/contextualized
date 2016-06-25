@@ -109,6 +109,7 @@ Changelog
 * **1.0**: Initial release.
 * **1.1**: SystemExit exceptions no longer are catched, thus triggering normal ``exit()`` by the interpreter.
 * **1.2**: Modified ``setup.py`` to install successfully with ``LANG=C``.
+* **1.3**: Fixed a bug that caused contextualized not to work in Python 2.
 
 License
 -------
