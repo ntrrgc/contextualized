@@ -3,7 +3,7 @@ from contextlib import contextmanager
 import sys
 import traceback
 
-__version__ = '1.1'
+__version__ = '1.3'
 
 class DebugContext(object):
     def __init__(self, fields):
@@ -65,5 +65,5 @@ def contextualized_tracebacks(fields, print_tb=print_tb):
         _traceback = _traceback.tb_next
 
         # Print the traceback
-        print_tb(context, (_traceback, _value, _traceback))
+        print_tb(context, (_type, _value, _traceback))
         del _traceback
